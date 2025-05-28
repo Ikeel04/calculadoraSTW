@@ -131,3 +131,23 @@ document.querySelectorAll('[data-operation]').forEach(button => {
 document.querySelector('[data-equals]').addEventListener('click', () => {
   calculator.handleOperator('=')
 })
+
+
+//function runTests() {
+//  const testCalc = new Calculator()
+  
+  // Test suma
+//  testCalc.inputDigit('2')
+//  testCalc.handleOperator('+')
+//  testCalc.inputDigit('3')
+//  testCalc.handleOperator('=')
+//  console.assert(testCalc.display === '5', 'Test suma falló')
+  
+  // Test límite de caracteres
+//  testCalc.clearAll()
+//  for (let i = 0; i < 10; i++) testCalc.inputDigit('1')
+//  console.assert(testCalc.display.length === 9, 'Test límite falló')
+  
+//  console.log('Tests completados')
+//}
+
